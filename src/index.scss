@@ -1,0 +1,260 @@
+
+
+
+
+body{
+  padding: 0;
+  margin: 0;
+  width:100%;
+  height:100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(6, 0, 32);
+  padding: 40px;
+}
+
+
+
+.about{
+  background-color: rgb(239, 43, 79);
+  width:100%;
+  height:100%;
+  
+}
+.blog{
+  margin: 10%;
+  background-color: rgb(65, 241, 153);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:100%;
+  height:100%;
+  
+}
+
+.blue2{
+  background-color: rgb(39, 167, 231);
+  width:100%;
+  height:100%;
+  
+}
+
+.blue3{
+  background-color: rgb(245, 47, 186);
+  width:100%;
+  height:100%;
+
+}
+
+
+
+
+
+
+
+// body {
+//   margin: 0;
+//   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//     sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @import "https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap";
+// @import "https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Mono&family=Poppins:wght@500;700&family=Roboto:wght@700&display=swap";
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+// $bg-color: rgb(14, 14, 46);
+// $bg-color2: rgb(22, 175, 246);
+// $bg-color3: rgb(255, 255, 255);
+// $bg-color4: rgb(223, 246, 251);
+// $bg-color5: rgb(10, 10, 33);
+// $bg-image: url(3d.jpg);
+
+// // Roboto
+
+// @mixin fonts {
+//   font: "Fira Code, Fira mono, Roboto";
+//   font-size: 10px;
+//   font-style: normal;
+//   text-transform: uppercase;
+//   font-weight: 400;
+//   color: $bg-color3;
+// }
+
+// @mixin image {
+//   background-image: url(3d.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+// @mixin logo {
+//   background-image: url(logo.svg);
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+// @mixin flex-end{
+//   margin: auto;
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: center;
+// }
+
+// @mixin column {
+//   margin: auto;
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: column wrap;
+//   align-items: center;
+//   position: relative;
+// }
+
+// @mixin center {
+//   margin: auto;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   position: relative;
+// }
+
+// @mixin text {
+//   font-size: 40px;
+//   font-family: "zen dots";
+//   font-style: bold;
+//   text-transform: uppercase;
+//   font-weight: 400;
+//   color: $bg-color3;
+// }
+
+// // .root {
+// //   margin: 0;
+// //   padding: 0;
+// //   width: 100%;
+// //   height: 100%;
+// //   // @include center;
+// //   @include text;
+// //   background-color: $bg-color;
+// // }
+
+
+
+// // .body{
+// //   margin: 0;
+// //   padding: 0;
+// //   width: 100%;
+// //   height: 100%;
+// //   display: flex;
+// //   background-color: rgb(14, 14, 46);
+// // }
+
+
+// .App {
+//   margin: 0;
+//   padding: 0;
+//   height: 100vh;
+// 	width: 100%;
+//    @include text;
+//    @include column;
+//   display: flex;
+//   background-color: $bg-color;
+// }
+
+
+// .ball {
+//   @include image;
+//   width: 50px;
+//   height: 50px;
+//   border-radius: 50%;
+//   border-style: solid 4px black;
+// }
+
+
+// .logo {
+//   @include logo;
+//   width: 260px;
+//   height: 70px;
+// }
+
+
+// .row {
+//   gap: 30px;
+//   padding: 0;
+//   top: 10px;
+//   left: 10px;
+//   width: 50px;
+//   height: 50px;
+//   @include column;
+//   list-style: none;
+//   margin: 20px 10p 10px 10px;
+//   background-color: $bg-color;
+//   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+// }
+
+
+
+// .col {
+//   margin: auto;
+//   width: 80px;
+//   height: 80px;
+//   overflow: auto;
+//   @include column;
+//   margin-bottom: 20%;
+//   border-radius: 10px;
+//   padding: 2rem 2.75rem;
+//   background-color: rgb(10, 10, 33);
+//   box-shadow: 0 10px 30px -15px rgb(22 175 246);
+// }
+
+
+// .navjustify-content-end {
+//   // @include flex-end;
+//   width:100%;
+//   height:10%;
+//    padding-left:130%;
+// }
+
+
+// .nav-link {
+//   @include fonts;
+//   //  @include flex-end;
+//   width:100%;
+// }
+
+
+// .nav-item{
+//   @include text;
+//   // @include flex-end;
+//   z-index: 10000;
+// }
+
+// .h2{
+//   @include fonts;
+//   background-color: $bg-color5;
+//   width:250px;
+//   height:290px;
+// }
