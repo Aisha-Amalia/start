@@ -1,0 +1,89 @@
+@import "https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Mono&family=Poppins:wght@500;700&family=Roboto:wght@700&display=swap";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$bg-color: rgb(14, 14, 46);
+$bg-color2: rgb(22, 175, 246);
+$bg-color3: rgb(255, 255, 255);
+$bg-color4: rgb(223, 246, 251);
+$bg-color5: rgb(10, 10, 33);
+$bg-image: url(3d.jpg);
+
+// Roboto
+
+@mixin fonts {
+  font: "Fira Code, Fira mono, Roboto";
+  font-size: 10px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: $bg-color3;
+}
+
+@mixin image {
+  background-image: url(3d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin logo {
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@mixin flex-start{
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin column {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: column wrap;
+  align-items: center;
+  position: relative;
+}
+
+@mixin center {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@mixin text {
+  font-size: 40px;
+  font-family: "zen dots";
+  font-style: bold;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: $bg-color3;
+}
+
+.root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  // @include center;
+  @include text;
+  background-color: $bg-color;
+}
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+

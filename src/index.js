@@ -1,21 +1,57 @@
 
-import React from "react"
-import ReactDOM from "react-dom/client"
+
+import React from "react";
+import { createRoot } from "react-dom/client";
+import "./App.scss";
+import App from "./App.js";
 
 
 
-const Navbar = (
 
-  <nav>
-    <h1> BODY WORKS</h1>
-    <ul>
-      <li> Product</li>
-      <li> About</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
-)
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
-ReactDOM.createRoot(document.getElementById("root")).render(Navbar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import "./App.scss";
+// import App from"./App";
+
+
+// ReactDOM.render(
+
+// <App />,
+
+// document.getElementById("root")
+
+// );
+
 
 
