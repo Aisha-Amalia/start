@@ -71,10 +71,16 @@ export default function NavBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-          
+
             COUNTRY
           </Typography>
-          <Search>
+          <Search  >
+
+
+
+
+
+
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
@@ -83,7 +89,7 @@ export default function NavBar() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
-        </Toolbar>
+       </Toolbar>
       </AppBar>
     </Box>
   );
@@ -109,7 +115,7 @@ function ToolbarOverriding() {
         data={[
           { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
           { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
-        ]}        
+        ]}
         components={{
           Toolbar: props => (
             <div>
@@ -127,4 +133,4 @@ function ToolbarOverriding() {
       />
     )
   }
-  
+

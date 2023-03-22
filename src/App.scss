@@ -64,13 +64,14 @@ $bg-image: url(3d.jpg);
   color: $bg-color3;
 }
 
+*
 .root {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vh;
+  height: 100vh;
   // @include center;
-  @include text;
+  // @include text;
   background-color: $bg-color;
 }
 
@@ -83,7 +84,14 @@ $bg-image: url(3d.jpg);
 	padding: 0;
 }
 
+.MTableToolbar{
+  background-color: red;
+}
 
+.css-ig9rso-MuiToolbar-root {
+  min-height: 94px;
+}
 
-
-
+.td {
+  font-size: 40px;
+}
